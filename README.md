@@ -19,6 +19,18 @@ Unpack it and run `pcapng-analyzer`. Your browser opens, already signed
 in. The `README.txt` inside covers the first-run security prompts, where
 your data lives, and updating.
 
+Or install it with a package manager, which also skips the first-run
+security prompts and makes updating one command:
+
+```sh
+# Windows, with Scoop
+scoop bucket add pcapng-analyzer https://github.com/stumat1/scoop-pcapng-analyzer
+scoop install pcapng-analyzer/pcapng-analyzer
+
+# macOS or Linux, with Homebrew
+brew install stumat1/pcapng-analyzer/pcapng-analyzer
+```
+
 Free to use; a [Pro licence](https://pcapnganalyzer.com/pricing.html)
 unlocks the rest in the same download. For a server that several people
 use, there's also a [Docker image](https://hub.docker.com/r/smathieson/pcapng-analyzer).
